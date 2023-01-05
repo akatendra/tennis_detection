@@ -111,7 +111,7 @@ while success:
     cv2.imshow('dilate', dilate)
 
     # Quit by pressing ESC
-    k = cv2.waitKey(100)
+    k = cv2.waitKey(10)
     if k == 27:  # wait for ESC key to exit
         break
 
